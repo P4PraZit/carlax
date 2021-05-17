@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Kurale');
+body
+{
+	font-family: 'Barlow Condensed', sans-serif;
+	background-attachment:fixed;	
+	background:url(image/crop%20(1).jpg);
+	
+}
+.btn
+{
+font-family: 'Kurale', serif;
+}
+.carousel-item active {
+    display: block;
+	
+}
+.arrow-up
+{
+	background:#ffc803;
+	height:30px;
+	width:30px;
+	right:0px;
+	bottom:0px;
+	color:#fff;
+
+	padding:8px 5px;
+	font-size:20px;
+	position:absolute;
+	}
+	
+fa-angle-double-up
+{
+	position:relative;
+	top:5px;
+}
+	
+	
+.bg-light
+{
+	
+	
+Background-color:#FFF	!important;
+box-shadow:5px 5px 5px 1px #000;
+padding:0px;
+position:fixed;
+width:100%;
+z-index:999;
+font-weight:bold;
+}
+.phn:hover
+{
+	color:#ffc803;
+	transition:0.5s;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+	position:relative;
+}
+.navbar-light .navbar-nav .nav-link:hover .sub-menu nav ul li
+{
+	display:block;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#000;
+	font-weight:900;
+	
+}
+.navbar-brand
+{
+	border:0px;
+}
+.inline 
+{
+	background:#211a18;
+	color:# FFF;
+	height:90px;
+	padding:0px;
+	
+}
+.xy
+{
+	color:#fff;
+	border:1px solid #453d3a;
+	height:50px;
+	margin:auto;
+	font-size:18px;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	padding:5px 12px;
+	transition:1s;
+	border-radius:0px;
+	position:relative;
+	float:right;
+	
+}
+.my-sm-0
+{
+	background:#ffc803;
+	color:#fff;
+	position:absolute;
+	border-radius:50%;
+	margin-right:0px;
+	margin-left:300px;
+	transition:2s;
+	
+}
+
+.form-inline
+{
+	color:#d2d2d2;
+	position:relative;
+	display:none;
+}
+.my-sm-0:hover .form-inline
+{
+	display:block;
+	border-radius:50px;
+}
+.my-sm-0:hover .fa 
+{
+	display:none;
+}
+.my-sm-0:hover
+{
+	background:transparent;
+	border-radius:0px;
+	
+}
+.xy:hover
+{
+		color:#ffc803;
+			
+}
+.xy:hover .hide
+{
+
+	display:block;
+	
+}
+.xy:hover .inline
+{
+	width:400px;
+}
+
+.h
+{
+	display:none;
+}
+ 
+.active a , .nav-link:hover
+{
+	color:#164da8 !important;
+}
+.c-2
+{
+	background-image:url(image/slider_1_2-copyright.jpg);
+	background-size:cover;
+	background-position:center;
+	min-height:100%;
+	font-weight:700;
+	width:100%;
+	opacity:1;
+}
+.xyz:hover
+{
+	color:#ffc806;
+	transition:0.7s;
+}
+.mn
+{
+	background:rgb(22, 77, 168,0.6);
+	color:#fff;
+}
+.sub
+{
+	display:none;
+	background:rgba(0,0,0,0.9);
+	position:absolute;
+	color:#d2d2d2;
+	position:absolute;
+}
+.nav-link:hover .sub
+{
+	display:block;
+}
+.mn:hover
+{
+	background-color:#164da8;
+	transition:0.9s;
+}
+.carouselExampleIndicators
+{
+	height:100%;
+	width:100%;
+}
+.c-1
+{
+	 
+   
+    background: url(image/slider_1_1-copyright.jpg);
+    background-size: cover;
+    background-position: center ;
+   
+    opacity: 1;
+    z-index: 20;
+	
+}
+	
+
+.c-3
+{
+	background:url(image/slider_1_3-copyright.jpg);
+	background-size:cover;
+	background-position:center;
+	font-weight:700;
+	padding-right:65px;
+
+}
+
+.carousel-indicators .active
+{
+	background:#ffc803;
+}
+.carousel-inner
+{
+	height:100%;
+}
+
+.content
+{
+	margin-top:20px;
+	
+	
+}
+.content p
+{
+	text-align:center;
+	color:#908c8a;
+}
+.phn-1:hover .xyz
+{
+	color:#ffc830;
+}
+.square
+{
+	
+	
+	
+	margin:auto;
+	padding-top:10px;
+	margin-top:20px;
+	 width: 0; 
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 35px solid #ffc803;
+  
+  border-left: 40px solid transparent;
+  margin-left:0px;
+}
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  height: 100% !important;
+}
+.ci
+{
+	background:#f7f7f7;
+	height:27px;
+	width:27px;
+	border-radius:50%;
+	text-align:center;
+	margin-top:0px;
+	padding:2px 5px;
+}
+.vehicle-icon
+{
+	margin-t0p:10px;
+	color:#164da8;
+	
+}
+.vehicle-icon:hover .vehicle-icon-fa
+{
+	color:#b2a9a6;
+	transition:2s;
+	
+	transform:rotate(360deg);
+	
+}
+ 
+.content h4:hover
+{
+	color:#ffc806;
+}
+
+
+.none
+{
+	position:absolute;
+	
+	transition:3s;
+	display:none;
+	
+}
+.vehicle-icon:hover  .none
+{
+	display:block;
+	transition:9s;
+	background:rgba(0,0,0,0.9);
+}
+.sch
+{
+	border-radius:0px;
+	background:#332826;
+	padding:25px 20px;
+	color:#fff;
+	margin-top:140px;
+}
+.sch:hover
+{
+	background:#493834;
+	transition:1s;
+}
+.xyy
+{
+	background:#faf6f5;
+	margin-top:100px;
+	padding-top:80px;
+	padding-bottom:80px;
+	min-height:500px;
+}
+.smile
+{
+	position:absolute;
+	height:300px;
+	right:20px;
+	width:400px;
+}
+.video
+{
+	position:relative;
+	bottom:-145px;
+	left:40px;
+	}
+	
+
+    
+	.car
+	{
+		background:#493834;
+		height:400px;
+		margin-top:-19px;
+		
+	}
+	.car img
+	{
+		padding-top:50px;
+	}
+	
+	
+	
+	.worker 
+	{
+	
+		position:absolute;
+		width:100%;
+		padding:0px;
+		margin:0px;
+		height:300px;
+		
+	}
+	.worker-1
+	{
+		background:url(image/service-4-copyright-760x590.jpg);
+		background-position:center;
+		background-size:cover;
+	}
+	.worker-2
+	{
+		background:url(image/service-3-copyright-1024x795.jpg);
+		background-position:center;
+		background-size:cover;
+	}
+	.worker-3
+	{
+		background:url(image/service-2-copyright-1024x795.jpg);
+		background-position:center;
+		background-size:cover;
+	}
+	.worker-4
+	{
+		background:url(image/service-1-copyright-1024x795.jpg);
+		background-position:center;
+		background-size:cover;
+	}
+		
+		
+	.title
+	{
+		background: linear-gradient( rgba(73,56,52,0),rgba(73,56,52,0.9));
+		 width:100%;
+		 display:none;
+		 height:100%;
+		 opacity:0.5
+		 
+		 position:absolute;
+		z-index:20;
+		 transition:0.5s;
+		 color:#fff;
+		 padding-top:190px;
+		 Padding-left:50px;
+		 line-height:0.1em;
+		 
+		
+		
+		 
+	}
+	
+	.worker:hover .title
+	{
+		display:block;
+	}
+	.back
+	{
+		background:#ffc803;
+		
+	}
+	.more-services
+	{
+		color:#fff;
+		font-size:36px;
+		text-align:center;
+		margin-top:100px;
+		margin-left:80px;
+	}
+	.more-services:hover
+	{
+		color:#332826;
+		transition:0.5s;
+	}
+	.back-2
+	{
+		background:#493834;
+		padding-top:50px;
+		color:#fff;
+		line-height:1em;
+		padding-bottom:20px;
+	}
+	.image-circle
+	{
+		height:100px;
+		width:100px;
+		border-radius:50%;
+		margin:auto;
+	}
+	.comma
+	{
+		border-bottom:10px solid transparent;
+		
+		border-left:10px solid #ffc803;
+		border-top:20px solid #ffc803;
+		height:20px;
+		width:0;
+		
+	}
+	.bx-wrapper
+	{
+		background:#493834;
+		border:0px;
+		box-shadow:0px 0px 0px 0px;
+	}
+	.bx-pager
+	{
+		display:none;
+	}
+	.bx-prev, .bx-next
+	{
+		display:none;
+		z-index:0;
+	}
+	 .image-1
+	{
+		
+		position:relative;
+		margin:10px;
+		width:97%;
+		background: url(image/post-3-copyright-370x276.jpg);
+		background-size:cover;
+		background-position:center;
+		padding:10px 20px;
+		height:300px;
+	}
+	.image-2
+	{
+		
+		position:relative;
+		margin:10px;
+		width:97%;
+		background: url(image/post-4-copyright-370x276.jpg);
+		height:300px;
+		background-size:cover;
+		background-position:center;
+		padding:10px 20px;
+	}
+	.image-3
+	{
+		
+		position:relative;
+		margin:10px;
+		width:97%;
+		background: url(image/post-5-copyright-370x276.jpg);
+		height:300px;
+		background-size:cover;
+		background-position:center;
+		padding:10px 20px;	}
+	.any
+	{
+		background:rgb(22, 77, 168,1);
+		position:absolute;
+		
+		color:#fff;
+		font-weight:700;
+		font-size:24px;
+		height:40px;
+		padding:5px 10px; 
+		margin-top:5px;
+		margin-left:0px;
+	}
+	.any:hover
+	{
+		background:#211a18;
+		transition:0.5s;
+	}
+	.image-1:hover,.image-2:hover,.image-3:hover
+	{
+		box-shadow:20px 20px 20px 5px #d2d2d2;
+		transition:0.5s;
+	}
+	.lrn:hover
+	{
+		color:#ffc803;
+		text-decoration:none;
+		transition:0.8s;
+	
+	}
+	.lrn
+	{
+		text-decoration:none; color:rgb(22, 77, 168,1);
+		font-size:24px;
+		font-weight:700;
+		position: relative;
+		float:left;
+		
+		
+	}
+	.fa-arrow-right
+	{
+		position:absolute;
+		color:#000;
+		float:right;
+		font-size:12px;
+	}
+	.footer
+	{
+		background:#000;
+		
+		width:100%;
+		color:#d2d2d2;
+		padding:10px;
+		font-family:kurale;
+		height:auto;
+		font-size:26px;
+	}
+	.icons
+	{
+	float:right;
+	color:white;
+	font-size:36px;	
+	}
+	
